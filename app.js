@@ -44,30 +44,6 @@ function showWeatherReport(weather) {
     date.innerText = dateManage(todayDate);
 
 
-    if (weatherType.textContent == 'Clear') {
-        document.body.style.backgroundImage = "url('images/clear.jpg')";
-
-    } else if (weatherType.textContent == 'Clouds') {
-
-        document.body.style.backgroundImage = "url('images/cloud.jpg')";
-
-    } else if (weatherType.textContent == 'Haze') {
-
-        document.body.style.backgroundImage = "url('images/cloud.jpg')";
-
-    } else if (weatherType.textContent == 'Rain') {
-
-        document.body.style.backgroundImage = "url('images/rain.jpg')";
-
-    } else if (weatherType.textContent == 'Snow') {
-
-        document.body.style.backgroundImage = "url('images/snow.jpg')";
-
-    } else if (weatherType.textContent == 'Thunderstorm') {
-
-        document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
-
-    }
 }
 
 // Date manage
